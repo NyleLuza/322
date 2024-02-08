@@ -19,7 +19,7 @@ public class Nil implements ImmutableList {
         return true;
     }
     public int sum(){
-        return 1;
+        return 0;
     }
     public ImmutableList append(ImmutableList other) {
         return null;

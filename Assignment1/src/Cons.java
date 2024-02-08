@@ -35,7 +35,7 @@ public class Cons implements ImmutableList {
     }
 
     public int sum() {
-        return 1;
+        return head + tail.sum();
     }
 
     public ImmutableList append(ImmutableList other) {
