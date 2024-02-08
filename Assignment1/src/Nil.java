@@ -13,7 +13,7 @@ public class Nil implements ImmutableList {
         return 0;
     } // hashCode
     public int length(){
-        return 1;
+        return 0;
     }
     public boolean contains(final int value){
         return true;
