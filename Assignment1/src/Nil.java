@@ -16,12 +16,12 @@ public class Nil implements ImmutableList {
         return 0;
     }
     public boolean contains(final int value){
-        return true;
+        return false;
     }
     public int sum(){
         return 0;
     }
     public ImmutableList append(ImmutableList other) {
-        return null;
+        return other;
     }
 } // Nil

@@ -31,7 +31,7 @@ public class Cons implements ImmutableList {
     }
 
     public boolean contains(final int value) {
-        return true;
+        return head == value || tail.contains(value);
     }
 
     public int sum() {
@@ -39,6 +39,6 @@ public class Cons implements ImmutableList {
     }
 
     public ImmutableList append(ImmutableList other) {
-        return null;
+        return new Cons(head, tail.append(other));
     }
 } // Cons
